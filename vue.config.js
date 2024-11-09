@@ -8,10 +8,6 @@ module.exports = defineConfig({
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'src'), // '@' 别名指向 'src' 目录
-        '@assets': path.resolve(__dirname, 'src/assets'),
-        '@components': path.resolve(__dirname, 'src/components'),
-        '@router': path.resolve(__dirname, 'src/router'),
-        '@views': path.resolve(__dirname, 'src/views')
       }
     }
   },

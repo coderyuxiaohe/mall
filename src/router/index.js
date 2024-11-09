@@ -54,9 +54,9 @@ const router = new VueRouter({
 })
 
 // 前置守卫
-// router.beforeEach((to, from, next) => {
-//   document.title = to.matched[0].meta.title;
-//   next();
-// });
+router.beforeEach((to, from, next) => {
+  document.title = to.matched[0].meta.title;
+  next();
+});
 
 export default router
