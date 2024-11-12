@@ -2,7 +2,7 @@ const { defineConfig } = require('@vue/cli-service')
 const path = require('path')
 
 module.exports = defineConfig({
-  publicPath: process.env.NODE_ENV === 'production' ? 'https://abc.wanmei.com/studyTest/test/vuejs-why/tabbar/dist/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? 'http://10.2.44.37/studyTest/test/vuejs-why/mall/dist/' : '/',
   transpileDependencies: true,
   configureWebpack: {
     resolve: {
